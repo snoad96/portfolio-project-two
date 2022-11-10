@@ -80,3 +80,11 @@ hr {
   background-color: #DDDDDE;
   color: var(--white);
   }
+
+  #btn0,
+  #btn1,
+  #btn2,
+  #btn3:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 0 #DDDDDE;
+  }
