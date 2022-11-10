@@ -81,14 +81,15 @@ loadQuiz();
 submitButton.addEventListener("click", () => {
     const answer = getSelected();
     if (answer) {
-        if (answer === quizData[currentQuiz].correct) score++;
-        currentQuiz++;
-        if (currentQuiz < quizData.length) loadQuiz();
-        else {
-            quiz.innerHTML =
-            `<h2>You did so well and scored a total of ${score}/${quizData.length}. 
-            Do you need to try again?</h2>`
-            `<button onclick = "history.go(0)">Try it Again?</button>`;
-        }
+      if (answer === quizData[currentQuiz].correct) score++;
+      currentQuiz++;
+      if (currentQuiz < quizData.length) loadQuiz();
+      else {
+        quiz.innerHTML = `
+              <h2>You did so well! You managed to get${score}/${quizData.length} questions correctly</h2>
+              <button onclick="history.go(0)">Play Again</button>
+          `;
+      }
     }
-});
+  });
+  
