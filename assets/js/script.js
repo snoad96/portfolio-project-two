@@ -75,3 +75,20 @@ const loadQuiz = () => {
     c_text.innerText = currentQuizData.c;
     d_text.innerText = currentQuizData.d;
 };
+
+loadQuiz();
+
+submitButton.addEventListener("click", () => {
+    const answer = getSelected();
+    if (answer) {
+        if (answer === quizData[currentQuiz].correct) score++;
+        currentQuiz++;
+        if (currentQuiz < quizData.length) loadQuiz();
+        else {
+            quiz.innerHTML =
+            `<h2>You did so well and scored a total of ${score}/${quizData.length}. 
+            Do you need to try again?</h2>`
+            `<button onclick = "history.go(0)">Try it Again?</button>`;
+        }
+    }
+});
