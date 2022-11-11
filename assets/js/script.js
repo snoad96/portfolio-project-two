@@ -40,7 +40,30 @@ const quizData = [
         d: "Children",
         correct: "a"
     },
-    
+    {
+        question: "What Fictional Character has Deadpool killed in the comics",
+        a: "Sherlock Holmes",
+        b: "Huckleberry Finn",
+        c: "Moby Dick",
+        d: "All of the above",
+        correct: "d"
+    },
+    {
+        question: "Where is Deadpool from?",
+        a: "USA",
+        b: "UK",
+        c: "Canada",
+        d: "Sweden",
+        correct: "c"
+    },
+    {
+        question: "What Movie was the character first played by Ryan Reynolds?",
+        a: "X-Men Origins: Wolverine",
+        b: "Deadpool: 1",
+        c: "Deadpool: 2",
+        d: "Avengers: Endgame",
+        correct: "a"
+    },
 ];
 
 // Get the list elements 
@@ -69,6 +92,7 @@ const getSelected = () => {
     return answer;
 }
 
+// Loads all questions into Quiz
 const loadQuiz = () => {
     deselectAnswers();
     const currentQuizData = quizData[currentQuiz];
@@ -81,7 +105,7 @@ const loadQuiz = () => {
 
 loadQuiz();
 
-// Event listeners
+// Event listeners and finds correct answer
 submitButton.addEventListener("click", () => {
     const answer = getSelected();
     if (answer) {
@@ -90,7 +114,9 @@ submitButton.addEventListener("click", () => {
       if (currentQuiz < quizData.length) loadQuiz();
       else {
         quiz.innerHTML = `
-              <h2>You did so well! You managed to get${score}/${quizData.length} questions correctly</h2>
+              <h2>You did so well!
+              <hr>
+              You managed to get${score}/${quizData.length} questions correctly</h2>
               <button onclick="history.go(0)">Play Again</button>
           `;
       }
