@@ -1,3 +1,4 @@
+// The Quiz Questions
 const quizData = [
     {
       question: "What is Deadpools real name?",
@@ -42,6 +43,7 @@ const quizData = [
     
 ];
 
+// Get the list elements 
 const quiz = document.getElementById("quiz");
 const answerElements = document.querySelectorAll(".answer");
 const questionElement = document.getElementById("question");
@@ -51,10 +53,11 @@ const c_text = document.getElementById("c_text");
 const d_text = document.getElementById("d_text");
 const submitButton = document.getElementById("submit");
   
+// Score card
 let currentQuiz = 0;
 let score = 0;
 
-const deselectAnswers = () => {
+const deselectAnswers = () =>  {
     answerElements.forEach((answer) => (answer.checked = false));
 };
 
@@ -78,6 +81,7 @@ const loadQuiz = () => {
 
 loadQuiz();
 
+// Event listeners
 submitButton.addEventListener("click", () => {
     const answer = getSelected();
     if (answer) {
