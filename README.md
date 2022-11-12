@@ -17,3 +17,8 @@ The Website has been built to be fully responsive across all devices but is esse
 * [Deployment](#deployment)
 * [Credits](#credits) 
 
+## Purpose
+
+The purpose of the website is to produce a user-friendly quiz game dedicated to Deadpool. Being engaging and educational while also being replayable for the users that didn't get it right the first time.  
+
+## User-Experience
