@@ -22,3 +22,5 @@ The Website has been built to be fully responsive across all devices but is esse
 The purpose of the website is to produce a user-friendly quiz game dedicated to Deadpool. Being engaging and educational while also being replayable for the users that didn't get it right the first time.  
 
 ## User-Experience
+I wanted the website to be aesthetically pleasing while using colours that are related to the Deadpool character. I wanted to keep the design minimal to not overwhelm the user while still being enjoyable to look at.
+I wanted the user to be able to jusmp straight into the quiz with minimal navigation or extra pages blocking their path.
