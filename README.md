@@ -70,11 +70,10 @@ I was always planning on going with the colour scheme you see on the website, I 
 
 -   [Google Fonts](https://fonts.google.com/)
       - Used to import specific fonts.
-      - The fonts 'Lobster Two' and 'Raleway' were used throughout the project and were present on all pages.
 -   [Font Awesome](https://fontawesome.com/)
-      - Used to add icons for aesthetic and UX purposes.
+      - Used to add icons.
 -   [GitHub](https://github.com/)
-      - Used as the respository for the projects code after being pushed from Git.
+      - Used as the respository for the project code after being pushed from Git.
 -   [W3C Markup Validation Service](https://validator.w3.org/)
       - Used to validate HTML.
 -   [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
@@ -82,18 +81,19 @@ I was always planning on going with the colour scheme you see on the website, I 
 -   [JSHint](https://jshint.com/)
       - Used to validate Javascript.
 -   [Coolors](https://coolors.co/)
-      - Used to source a colour palette that would link to the purpose of the site and support the overall user experience.
+      - Used to source a colour palette that would link to the purpose of the site and support the overall UX.
 -   [Techsini](https://techsini.com/multi-mockup/index.php)
-      - Used to create mockup images of my live website on numerous devices and viewports.
--   [Favicon.cc](https://www.favicon.cc/)
-      - Used to create my favicon image.
-
+      - Used to create mockup images of my live website on different types of devices and viewports.
 
 ## Testing
 
 ### Validator Testing
 
 #### HTML
+
+- Using the [W3C Markup Validation Service](https://validator.w3.org/) it has come back with no errors or warnings. This was used for the whole website.
+
+![Navbar](assets/images/html-checker.PNG)
 
 #### CSS
 
