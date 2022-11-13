@@ -3,7 +3,7 @@
     --red: #EB232A;
     --white: #DDDDDE;
     --darkgrey: #444444;
-    --lightgrey: #8C8C8D;
+    --lightgrey: #6c4c6c;
     --black: #070708; 
 }
 
@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: #8C8C8D;
+    background-color: #a58fa5;
     font-family: 'Merriweather', serif;
 }
 
@@ -96,4 +96,16 @@ hr {
 
   button:hover {
     background-color: #444444;
+  }
+
+  #submit{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding:0.5rem;
+    background-color: #070708;
+  }
+
+  .score-area{
+    display: flex;
+    justify-content: center;
   }

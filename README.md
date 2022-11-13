@@ -29,6 +29,9 @@ I wanted the user to be able to jusmp straight into the quiz with minimal naviga
 
 ### Potential Future Features
 
+- A Timer
+- A running timer during the activity could add some pressure and excitment to the challenge. Making the user more likely to continue replayability.
+
 ## Design
 
 ### Colour
@@ -88,6 +91,7 @@ Explain how I made a sketch of the quiz and how I wanted it compared to how it t
 ### User Testing
 
 ### Resolved Bugs
+
 ### Unresolved Bugs
 
 ## Deplyment
