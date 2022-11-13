@@ -18,7 +18,7 @@ body {
     font-family: 'Merriweather', serif;
 }
 
-/* Devider Line */
+/* Divider Line */
 hr {
     border: 10px solid #070708;
     border-radius: 5px;
@@ -114,4 +114,6 @@ hr {
   .score-area{
     display: flex;
     justify-content: center;
+    text-decoration: solid;
+    
   }
