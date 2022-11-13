@@ -113,11 +113,12 @@ submitButton.addEventListener("click", () => {
       currentQuiz++;
       if (currentQuiz < quizData.length) loadQuiz();
       else {
+        submitButton.style.visibility = 'hidden';
         quiz.innerHTML = `
               <h2>You did so well!
               <hr>
               You managed to get${score}/${quizData.length} questions correctly</h2>
-              <button onclick="history.go(0)">Play Again</button>
+              <button onclick="window.location.reload();">Play Again</button>
           `;
       }
     }

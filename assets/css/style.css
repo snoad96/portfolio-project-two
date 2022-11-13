@@ -77,10 +77,16 @@ hr {
   border-radius: 12px;
   background-color: #EB232A;
   color: #070708;
+  list-style: none;
+  text-align: center;
   }
 
-  /* cursor: pointer;
-  box-shadow: 0 0.4rem 0 #DDDDDE; */
+  .option:hover {
+    background-image: none;
+    transition: transform 150ms;
+    transform: scale(1.05);
+    cursor: pointer;
+}
 
   button {
     background-color: #EB232A;

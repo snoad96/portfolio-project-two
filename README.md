@@ -74,6 +74,7 @@ Explain how I made a sketch of the quiz and how I wanted it compared to how it t
 -   [Favicon.cc](https://www.favicon.cc/)
       - Used to create my favicon image.
 
+
 ## Testing
 
 ### Validator Testing
