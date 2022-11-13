@@ -1,4 +1,5 @@
-/*Base colors*/
+/*Base colors as a key*/
+/*Keeping with the Deadpool colour theme*/
 :root {
     --red: #EB232A;
     --white: #DDDDDE;
@@ -7,6 +8,7 @@
     --black: #070708; 
 }
 
+/* Centering all of the information*/
 * {
     margin: 0;
     padding: 0;
@@ -109,6 +111,10 @@ hr {
     margin-bottom: 0.5rem;
     padding:0.5rem;
     background-color: #070708;
+  }
+
+  #submit:hover{
+    background-color: #EB232A;
   }
 
   .score-area{
