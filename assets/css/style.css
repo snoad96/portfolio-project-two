@@ -124,3 +124,18 @@ hr {
     text-decoration: solid;
     color: #070708;
   }
+
+  /* High Score page */
+  #finalScore{
+    display: flex;
+    justify-content: center;
+    text-decoration: solid;
+    color: #070708;
+  }
+
+  .btn{
+    display: flex;
+    justify-content: center;
+    text-decoration: solid;
+    color: #070708;
+  }
