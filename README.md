@@ -97,7 +97,13 @@ I was always planning on going with the colour scheme you see on the website, I 
 
 #### CSS
 
+- the result from [W3C Markup Validation Service](https://validator.w3.org/) show no errors.
+
+![Navbar](assets/images/css-validator.PNG)
+
 #### JavaScript
+
+- Results from [JSHint](https://jshint.com/)
 
 ### Lighthouse Testing
 
