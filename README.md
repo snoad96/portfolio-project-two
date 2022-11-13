@@ -1,11 +1,11 @@
 <h1> The Deadpool Quiz</h1>
 
-[view the live project here!]
+[view the live project here!](https://snoad96.github.io/portfolio-project-two/)
 
 The Deadpool Quiz is an interactive website that allows users to join a quiz based on the movie famous and comic character "Deadpool". It is a simple but intreresting game that is user friendly and even a little informative for the user.
 The Website has been built to be fully responsive across all devices but is essentially a mobile quiz game.
 
-![mockup] add screenshot here
+![mockup](/assets/images/technisi-quiz.PNG)
 
 ## Index - Table of Contents
 * [Purpose](#purpose)
@@ -29,8 +29,9 @@ I wanted the user to be able to jusmp straight into the quiz with minimal naviga
 
 ### Potential Future Features
 
-- A Timer
-- A running timer during the activity could add some pressure and excitment to the challenge. Making the user more likely to continue replayability.
+- A Timer  
+      - A running timer during the activity could add some pressure and excitment to the challenge. Making the user more likely to continue replayability.
+
 
 ## Design
 
