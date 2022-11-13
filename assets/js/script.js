@@ -1,4 +1,4 @@
-/* jshint esversion: 6 */
+// jshint esversion: 6
 // The Quiz Questions
 const quizData = [
     {
@@ -91,7 +91,7 @@ const getSelected = () => {
         if (answerElement.checked) answer = answerElement.id;
     });
     return answer;
-}
+};
 
 // Loads all questions into Quiz
 const loadQuiz = () => {

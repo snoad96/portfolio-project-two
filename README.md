@@ -44,7 +44,7 @@ I wanted the user to be able to jusmp straight into the quiz with minimal naviga
 ### Colour
 - I decided to use a very simple style and go with the colours related to the main character of the quiz. These are big redish colours and of course black. Very basic but they work well together and I felt that not much other colours where needed for this quiz to stand out.
 
-- I downloaded the main logo of my website and added it as an immage to [Coolers](https://coolers.co/) and it generated a palate for me to use that were similar to the logo.
+- I downloaded the main logo of my website and added it as an image to [Coolers](https://coolers.co/) and it generated a palate for me to use that were similar to the logo.
 This kept the theme of the quiz throughout my website.
 
 ![Navbar](assets/images/colormind.PNG)
@@ -62,9 +62,9 @@ I was always planning on going with the colour scheme you see on the website, I 
 
 ### Languages Used
 
--   [HTML5](https://en.wikipedia.org/wiki/HTML5)
--   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
--   [Javascript](https://en.wikipedia.org/wiki/Javascript)
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [Javascript](https://en.wikipedia.org/wiki/Javascript)
 
 ### Programmes Used
 
@@ -103,28 +103,58 @@ I was always planning on going with the colour scheme you see on the website, I 
 
 #### JavaScript
 
-- Results from [JSHint](https://jshint.com/)
+- Results from [JSHint](https://jshint.com/) I struggled a little with this Validator as I was unaware of the ES6 issue. I have since updated the top of my JavaScript pages with "// jshint esversion: 6" and has fixed the warning that were coming up.
+It now shows no errors.
+
+![navbar](assets/images/js-check.PNG)
 
 ### Lighthouse Testing
 
+![Navbar](assets/images/lighthouse.PNG)
+
 ### Browser Combatibility
 
+Testing was done on
+- Google Chrome
+- Microsoft Edge
+- Safari
+
 ### User Testing
+- I have got multiple users to test out my website, all came back with a functional quiz. However I did have some issues come up and have since corrected them. 
 
 ### Resolved Bugs
+- The leaderboard page would throw a 404 error once I put the website live, this was a simple misstype in the code.
+ I have since corrected that.
+- I also had an issue with the JS validator, showing warnings about "jshint esversion: 6", this was a new one for me and took a while to figure out.
+With the help of my mentor and the slack community I was able to resolve this.
 
 ### Unresolved Bugs
+- When I look at the website through my mobile device, I notice that it is not properly aligned, I am aware of this and going through it with my mentor, we do not understand why under 320px the information is no longer centered sometimes.
+ With more time and better understanding of coding, I hope I will be able to resolve this issue.
 
 ## Deplyment
 
-### How to Deploy
+- To succsessfully deploy your webpage, go to the GitHub repository and navigate to the 'Settings' tab. Then, select 'Pages' from the menu.
+- Go to the 'Source' menu and select 'Master Branch'.
+- After the page has auto-refreshed, you should see a display with your link - this will mean a successful deployment.
+- Now, any changes pushed from GitPod to the master branch will be visible and take effect on the live project [live project link](https://snoad96.github.io/portfolio-project-two/)
 
 ## Credits
 
 ### Photos/Images
-mention deapool logo
+The only Image I have used in my website is one taken from [seeklogo](https://seeklogo.com/free-vector-logos/deadpool) I used this from google images as it is a free site that allows you to download. 
+I could not create my own as this is a TradeMark logo of the Deadpool franchise.
 
-### Code
-
-### Acknowledgements
-- I want to thank...
+### Code/ Acknowledgements
+- I have recieved help from multiple sources to create this webpage. 
+      There is a lot on this website that I didn't learn or fully understand through the course material. 
+      These are the people or sites that have helped me or gave me the ideas to create what I have produced.
+- [Mike Dane Youtube Channel](https://www.youtube.com/c/GiraffeAcademy) 
+      He has helped a lot with reminders and explaining more indepth about the areas I struggled more with.
+- [W3Schools](https://www.w3schools.com/js/js_string_methods.asp)
+      As a general reminder of what things mean and how to use them.
+- [stack Overflow](https://stackoverflow.com/questions/74425069/merging-string-lists)
+      For general questions that I struggled to find the answer for.
+- The Slack Community, always someone with more knowledge than me.
+      
+- My mentor Spence for giving good guidlines and making sure I'm staying on track and not over complicating things.
